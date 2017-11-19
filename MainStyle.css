@@ -1,0 +1,366 @@
+.accent_blue
+{
+    color: #21c36d; 
+}
+
+.accent_white
+{
+    color: #fff;
+    background: #21c36d;
+    padding: 0 5px;
+}
+
+
+
+
+/*Global*/
+body
+{
+    font-family: 'Helvetica', sans-serif;
+}
+h1, h2, h3, h5
+{
+    font-family: 'Helvetica', sans-serif;
+}
+h1
+{
+    font-size: 48px;
+    font-weight: 700;
+    color:  #2b2b2b;
+}
+h2
+{
+    font-size: 32px;
+    font-weight: 700;
+    color:  #2b2b2b;
+}
+h3
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: #21c36d;
+}
+h4
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color:  #2b2b2b;
+    line-height: 24px;
+}
+h5
+{
+    font-size: 14px;
+    font-weight: 300;
+    color: #21c36d;
+}
+.about_dark
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color:  #2b2b2b;
+    z-index: 999;
+}
+.about_bright
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    margin: -39px 1px;
+    z-index: 1;
+    font-weight: 300;
+    color: #21c36d;
+    position: absolute;
+}
+
+
+
+/*Colors*/
+.KapustaGreen
+{
+    height: 320px;
+    font-family: 'Lato';
+    float: left;
+    text-align: center;
+    padding: 32px;
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+    width: 20%;
+    -webkit-writing-mode: tb-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: tb-rl;
+    background: #21c36d;
+}
+.AccentBlue
+{
+    height: 320px;
+    font-family: 'Lato';
+    float: left;
+    padding: 24px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+    width: 20%;
+    -webkit-writing-mode: tb-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: tb-rl;
+    background: #75bae1;
+}
+.NoName
+{
+    height: 320px;
+    font-family: 'Lato';
+    -webkit-writing-mode: tb-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: tb-rl;
+    text-align: center;
+    float: left;
+    padding: 24px;
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+    width: 20%;
+    background: #9fb5c1;
+}
+.BrightGray
+{
+    height: 320px;
+    font-family: 'Lato';
+    -webkit-writing-mode: tb-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: tb-rl;
+    text-align: center;
+    float: left;
+    padding: 24px;
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+    width: 20%;
+    background: #bfbfbf;
+}
+.DarkGray
+{
+    height: 320px;
+   font-family: 'Lato';
+    -webkit-writing-mode: tb-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: tb-rl;
+    text-align: center;
+    float: left;
+    padding: 24px;
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+    width: 20%;
+    background: #2b2b2b; 
+}
+
+
+
+
+/*Links*/
+a
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color:  #2b2b2b;
+    font-weight: 300;
+    z-index: 999;
+}
+a:hover
+{
+    text-decoration: none;
+    color:  #2b2b2b;
+}
+.Link_underline
+{
+    width: 14%;
+}
+.Link_underline:hover .accent_link
+{
+    display: block;   
+}
+.accent_link
+{
+    display: none;
+    margin: -9px auto auto 9px;
+    width: 70%;
+    background:  #21c36d;
+    background-blend-mode: multiply;
+    z-index: 1;
+    height: 4px
+}
+.Link_circle
+{
+    width: 14.5%;
+}
+.Circle
+{
+    width: 16px;
+    height: 16px;
+    background:  #21c36d;
+    border-radius: 1000px;
+    float: right;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px;
+    font-weight: 100;
+}
+.Link_gray
+{
+    font-size: 14px;
+    font-weight: 300;
+    color: #80919b;
+    text-decoration: underline;
+}
+.Link_gray:hover
+{
+    color: #4b565b;  
+    text-decoration: underline;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+.Link_learnmore
+{
+    color: #21c36d;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.Link_learnmore:hover
+{
+    color: #21c36d;
+    text-decoration: underline;
+    font-weight: 400;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+
+
+
+/*Fields*/
+input
+{
+    height: 48px;
+    border: 1px  #21c36d solid;
+    padding: 12px
+}
+
+
+
+
+/*Buttons*/
+.btn_fill
+{
+    background: #21c36d;
+    width: 192px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding: 14px;
+    border: none;
+}
+.btn_fill:active
+{
+    background: #fff;
+    color: #21c36d;
+    font-weight: 400;
+    -webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+}
+.btn_outline
+{
+    border: 1px #21c36d solid;
+    width: 192px;
+    font-size: 18px;
+    color: #21c36d;
+    text-align: center;
+    padding: 14px;
+    background: none;
+    font-weight: 300;
+}
+.hvr-sweep-to-top
+{
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s; 
+}
+.hvr-sweep-to-top:before 
+{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #21c36d;
+ 
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active
+{
+  color: white;
+  font-weight: 400;
+}
+.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before 
+{
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+
+/*Another*/
+.point
+{
+    margin: 10px;
+    float: right;
+}
+.point_empty
+{
+    width: 18px;
+    height: 18px;
+    border: 1px #4b565b solid;
+    border-radius: 100px;
+    z-index: 999;
+}
+.point_filled
+{
+    margin: -16px 3px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: #21c36d;
+    border-radius: 100px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
